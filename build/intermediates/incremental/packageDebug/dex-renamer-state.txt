@@ -1,0 +1,7 @@
+#Sun Aug 13 15:11:22 IST 2017
+base.0=/Users/mikeC/Documents/workspace/KCSonSons/build/intermediates/transforms/dex/debug/folders/1000/10000/instant-run_8aeda5f0c8c969fed055b3a3a67e7dd75c3224fd
+renamed.1=classes2.dex
+renamed.0=classes.dex
+file.1=/Users/mikeC/Documents/workspace/KCSonSons/build/intermediates/transforms/dex/debug/folders/1000/10000/instant-run-bootstrap_f924e8e82b2e09c6816617ef1785a449d5d24c5a/classes.dex
+base.1=/Users/mikeC/Documents/workspace/KCSonSons/build/intermediates/transforms/dex/debug/folders/1000/10000/instant-run-bootstrap_f924e8e82b2e09c6816617ef1785a449d5d24c5a
+file.0=/Users/mikeC/Documents/workspace/KCSonSons/build/intermediates/transforms/dex/debug/folders/1000/10000/instant-run_8aeda5f0c8c969fed055b3a3a67e7dd75c3224fd/classes.dex

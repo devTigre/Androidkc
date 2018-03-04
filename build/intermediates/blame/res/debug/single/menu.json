@@ -1,0 +1,94 @@
+[
+    {
+        "merged": "/Users/mikeC/Documents/workspace/KCSonSons/build/intermediates/res/merged/debug/menu/location.xml",
+        "source": "/Users/mikeC/Documents/workspace/KCSonSons/res/menu/location.xml"
+    },
+    {
+        "merged": "/Users/mikeC/Documents/workspace/KCSonSons/build/intermediates/res/merged/debug/menu/burger.xml",
+        "source": "/Users/mikeC/Documents/workspace/KCSonSons/res/menu/burger.xml"
+    },
+    {
+        "merged": "/Users/mikeC/Documents/workspace/KCSonSons/build/intermediates/res/merged/debug/menu/camera_map.xml",
+        "source": "/Users/mikeC/Documents/workspace/KCSonSons/res/menu/camera_map.xml"
+    },
+    {
+        "merged": "/Users/mikeC/Documents/workspace/KCSonSons/build/intermediates/res/merged/debug/menu/more.xml",
+        "source": "/Users/mikeC/Documents/workspace/KCSonSons/res/menu/more.xml"
+    },
+    {
+        "merged": "/Users/mikeC/Documents/workspace/KCSonSons/build/intermediates/res/merged/debug/menu/pitta.xml",
+        "source": "/Users/mikeC/Documents/workspace/KCSonSons/res/menu/pitta.xml"
+    },
+    {
+        "merged": "/Users/mikeC/Documents/workspace/KCSonSons/build/intermediates/res/merged/debug/menu/insta.xml",
+        "source": "/Users/mikeC/Documents/workspace/KCSonSons/res/menu/insta.xml"
+    },
+    {
+        "merged": "/Users/mikeC/Documents/workspace/KCSonSons/build/intermediates/res/merged/debug/menu/order.xml",
+        "source": "/Users/mikeC/Documents/workspace/KCSonSons/res/menu/order.xml"
+    },
+    {
+        "merged": "/Users/mikeC/Documents/workspace/KCSonSons/build/intermediates/res/merged/debug/menu/tab_layout.xml",
+        "source": "/Users/mikeC/Documents/workspace/KCSonSons/res/menu/tab_layout.xml"
+    },
+    {
+        "merged": "/Users/mikeC/Documents/workspace/KCSonSons/build/intermediates/res/merged/debug/menu/every_thing.xml",
+        "source": "/Users/mikeC/Documents/workspace/KCSonSons/res/menu/every_thing.xml"
+    },
+    {
+        "merged": "/Users/mikeC/Documents/workspace/KCSonSons/build/intermediates/res/merged/debug/menu/gplus.xml",
+        "source": "/Users/mikeC/Documents/workspace/KCSonSons/res/menu/gplus.xml"
+    },
+    {
+        "merged": "/Users/mikeC/Documents/workspace/KCSonSons/build/intermediates/res/merged/debug/menu/q__cam.xml",
+        "source": "/Users/mikeC/Documents/workspace/KCSonSons/res/menu/q__cam.xml"
+    },
+    {
+        "merged": "/Users/mikeC/Documents/workspace/KCSonSons/build/intermediates/res/merged/debug/menu/www.xml",
+        "source": "/Users/mikeC/Documents/workspace/KCSonSons/res/menu/www.xml"
+    },
+    {
+        "merged": "/Users/mikeC/Documents/workspace/KCSonSons/build/intermediates/res/merged/debug/menu/tab.xml",
+        "source": "/Users/mikeC/Documents/workspace/KCSonSons/res/menu/tab.xml"
+    },
+    {
+        "merged": "/Users/mikeC/Documents/workspace/KCSonSons/build/intermediates/res/merged/debug/menu/new_server.xml",
+        "source": "/Users/mikeC/Documents/workspace/KCSonSons/res/menu/new_server.xml"
+    },
+    {
+        "merged": "/Users/mikeC/Documents/workspace/KCSonSons/build/intermediates/res/merged/debug/menu/home_.xml",
+        "source": "/Users/mikeC/Documents/workspace/KCSonSons/res/menu/home_.xml"
+    },
+    {
+        "merged": "/Users/mikeC/Documents/workspace/KCSonSons/build/intermediates/res/merged/debug/menu/merch.xml",
+        "source": "/Users/mikeC/Documents/workspace/KCSonSons/res/menu/merch.xml"
+    },
+    {
+        "merged": "/Users/mikeC/Documents/workspace/KCSonSons/build/intermediates/res/merged/debug/menu/qcam.xml",
+        "source": "/Users/mikeC/Documents/workspace/KCSonSons/res/menu/qcam.xml"
+    },
+    {
+        "merged": "/Users/mikeC/Documents/workspace/KCSonSons/build/intermediates/res/merged/debug/menu/legal_info.xml",
+        "source": "/Users/mikeC/Documents/workspace/KCSonSons/res/menu/legal_info.xml"
+    },
+    {
+        "merged": "/Users/mikeC/Documents/workspace/KCSonSons/build/intermediates/res/merged/debug/menu/facebook.xml",
+        "source": "/Users/mikeC/Documents/workspace/KCSonSons/res/menu/facebook.xml"
+    },
+    {
+        "merged": "/Users/mikeC/Documents/workspace/KCSonSons/build/intermediates/res/merged/debug/menu/util.xml",
+        "source": "/Users/mikeC/Documents/workspace/KCSonSons/res/menu/util.xml"
+    },
+    {
+        "merged": "/Users/mikeC/Documents/workspace/KCSonSons/build/intermediates/res/merged/debug/menu/about.xml",
+        "source": "/Users/mikeC/Documents/workspace/KCSonSons/res/menu/about.xml"
+    },
+    {
+        "merged": "/Users/mikeC/Documents/workspace/KCSonSons/build/intermediates/res/merged/debug/menu/open_hours.xml",
+        "source": "/Users/mikeC/Documents/workspace/KCSonSons/res/menu/open_hours.xml"
+    },
+    {
+        "merged": "/Users/mikeC/Documents/workspace/KCSonSons/build/intermediates/res/merged/debug/menu/twitter.xml",
+        "source": "/Users/mikeC/Documents/workspace/KCSonSons/res/menu/twitter.xml"
+    }
+]

@@ -1,0 +1,23 @@
+<?xml version="1.0" encoding="utf-8"?>
+<items version="2" >
+
+    <item
+        is-multidex="true"
+        jar="/Users/mikeC/Documents/workspace/KCSonSons/build/intermediates/incremental-classes/debug/instant-run-bootstrap.jar"
+        jumboMode="true"
+        optimize="true"
+        revision="25.0.3"
+        sha1="37b3e95c0b3bab197bb202e1bf1ea0c5dfe35f65">
+        <dex dex="/Users/mikeC/Documents/workspace/KCSonSons/build/intermediates/transforms/dex/debug/folders/1000/10000/instant-run-bootstrap_f924e8e82b2e09c6816617ef1785a449d5d24c5a/classes.dex" />
+    </item>
+    <item
+        is-multidex="true"
+        jar="/Users/mikeC/Documents/workspace/KCSonSons/build/intermediates/incremental-runtime-classes/debug/instant-run.jar"
+        jumboMode="true"
+        optimize="true"
+        revision="25.0.3"
+        sha1="caff8e51a24901cfc9cd7e1cf83d84f4cb0c103b">
+        <dex dex="/Users/mikeC/Documents/workspace/KCSonSons/build/intermediates/transforms/dex/debug/folders/1000/10000/instant-run_8aeda5f0c8c969fed055b3a3a67e7dd75c3224fd/classes.dex" />
+    </item>
+
+</items>

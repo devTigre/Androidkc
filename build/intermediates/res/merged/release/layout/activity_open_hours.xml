@@ -1,0 +1,514 @@
+ 
+                 <LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+                    android:layout_width="fill_parent"
+                    android:layout_height="match_parent"
+                    android:layout_margin="1dp"
+                    android:background="@drawable/shape_border"
+                    android:gravity="center_vertical|fill_vertical|center_horizontal|fill_horizontal|center"
+                    android:orientation="vertical"
+                    android:weightSum="8">
+                    <ImageView
+                        android:id="@+id/imageViewNewLogow96"
+                        android:layout_width="fill_parent"
+                        android:layout_height="wrap_content"
+                        android:layout_weight="1"
+                        android:minHeight="96dp"
+                        android:src="@drawable/newlogow96"/>
+                                        <ImageView
+                                            android:id="@+id/imageViewhoursbannerw600"
+                                            android:layout_width="fill_parent"
+                                            android:layout_height="wrap_content"
+                                            android:layout_gravity="center"
+                                            android:layout_weight="1"
+                                            android:src="@drawable/hoursbannerw600"
+                                            android:paddingLeft="80px"
+                                            android:paddingRight="80px"
+                                            />
+                    <ImageView
+                        android:id="@+id/imageViewclockicon"
+                        android:layout_width="fill_parent"
+                        android:layout_height="wrap_content"
+                        android:layout_marginBottom="6dp"
+                        android:layout_weight="1"
+                        android:src="@drawable/clock_icon"/>
+                   <TableLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="match_parent"
+                    android:layout_weight="5"
+                    >
+               <ScrollView
+                   android:id="@+id/ScrollView01"
+                   android:layout_width="wrap_content"
+                   android:layout_height="wrap_content"
+                   android:layout_weight="2"
+                   android:fillViewport="true"
+                     >
+                    
+                    <TableLayout
+                        android:layout_width="fill_parent"
+                        android:layout_height="fill_parent"
+                        android:layout_weight="3"
+                         android:scrollbarAlwaysDrawVerticalTrack="true"
+                        android:scrollbars="vertical" 
+                        android:weightSum="10"
+                        >
+                        <TableRow
+                            android:id="@+id/tableRowMon"
+                            android:layout_width="wrap_content"
+                            android:layout_height="0dp"
+                            android:layout_weight="1"
+                            android:background="@color/LightGray"
+                            android:gravity="center">
+                            <TextView
+                                android:id="@+id/textViewMonMore"
+                                android:layout_width="fill_parent"
+                                android:layout_height="match_parent"
+                                android:layout_gravity="fill|center"
+                                android:layout_weight="1"
+                                android:gravity="center"
+                                android:paddingTop="3dp"
+                                android:text="Monday"
+                                android:textSize="20sp"/>
+                        </TableRow>
+                        <TableRow
+                            android:id="@+id/tableRow1"
+                            android:layout_width="wrap_content"
+                            android:background="@color/LightGray"
+                            >
+                        <TextView
+                            android:id="@+id/textViewMOpen1"
+                            android:layout_width="0dp"
+                            android:layout_height="wrap_content"
+                            android:layout_gravity="right"
+                            android:layout_weight="6"
+                            android:gravity="right"
+                            android:text="17.OO"
+                            android:textSize="18sp"/>
+                        <TextView
+                            android:id="@+id/textView1"
+                            android:layout_width="wrap_content"
+                            android:layout_height="wrap_content"
+                            android:layout_gravity="center"
+                            android:layout_weight="1"
+                            android:gravity="center"
+                            android:text="-"
+                            android:textSize="20sp"/>
+                        <TextView
+                            android:id="@+id/textViewMClose1"
+                            android:layout_width="0dp"
+                            android:layout_height="wrap_content"
+                            android:layout_weight="6"
+                            android:gravity="left"
+                            android:text="OO.3O"
+                            android:textSize="18sp"/>
+                                                </TableRow>
+                        
+                        
+                        <TableRow
+                            android:id="@+id/tableRowTue"
+                            android:layout_width="wrap_content"
+                            android:layout_height="0dp"
+                            android:layout_weight="1"
+                            android:weightSum="1" 
+                                                        android:background="@color/DarkGray"
+                            android:paddingTop="3dp"
+                            >
+                            <TextView
+                                android:id="@+id/textViewTue"
+                                android:layout_width="0dp"
+                                android:layout_height="wrap_content"
+                                android:layout_weight="1"
+                                android:gravity="center"
+                                android:text="Tuesday"
+                                android:textSize="20sp"/>
+                             </TableRow>
+                            
+                            <TableRow
+                                android:id="@+id/tableRow2"
+                                android:layout_width="wrap_content"
+                                android:layout_height="wrap_content"
+                            android:background="@color/DarkGray"
+                                
+                                >
+                            <TextView
+                                android:id="@+id/textViewTuOpen1"
+                                android:layout_width="0dp"
+                                android:layout_height="wrap_content"
+                                android:layout_gravity="center"
+                                android:layout_weight="6"
+                                android:gravity="right"
+                                android:text="17.OO"
+                                android:textSize="18sp"/>
+                            <TextView
+                                android:id="@+id/textView2"
+                                android:layout_width="wrap_content"
+                                android:layout_height="wrap_content"
+                                android:layout_gravity="center"
+                                android:layout_weight="1"
+                                android:gravity="center"
+                                android:text="-"
+                                android:textSize="20sp"/>
+                            <TextView
+                                android:id="@+id/textViewTuClose1"
+                                android:layout_width="0dp"
+                                android:layout_height="wrap_content"
+                                android:layout_weight="6"
+                                android:gravity="left"
+                                android:text="OO.3O"
+                                android:textSize="18sp"/>
+                            </TableRow>
+                        <TableRow
+                            android:id="@+id/tableRowWed"
+                            android:layout_width="wrap_content"
+                            android:layout_height="0dp"
+                            android:layout_gravity="center"
+                            android:layout_weight="1"
+                            android:weightSum="1"
+                            android:background="@color/LightGray"
+                            android:paddingTop="3dp">
+                            
+                            <TextView
+                                android:id="@+id/textViewWed"
+                                android:layout_width="0dp"
+                                android:layout_height="wrap_content"
+                                android:layout_weight="1"
+                                android:gravity="center"
+                                android:text="Wednesday"
+                                android:textSize="20sp"/>
+                        </TableRow>
+                            
+                            
+        					<TableRow
+                                android:id="@+id/tableRow3"
+                                android:layout_width="wrap_content"
+                                android:layout_height="wrap_content"
+                                android:background="@color/LightGray"
+                                >
+                            <TextView
+                                android:id="@+id/textViewWOpen1"
+                                android:layout_width="0dp"
+                                android:layout_height="wrap_content"
+                                android:layout_weight="6"
+                                android:gravity="right"
+                                android:text="17.OO"
+                                android:textSize="18sp"/>
+                            <TextView
+                                android:id="@+id/textView3"
+                                android:layout_width="wrap_content"
+                                android:layout_height="wrap_content"
+                                android:layout_weight="1"
+                                android:text="-"
+                                android:textSize="20sp"
+                            android:gravity="center"  
+                                />
+                            <TextView
+                                android:id="@+id/textViewWClose1"
+                                android:layout_width="0dp"
+                                android:layout_height="wrap_content"
+                                android:layout_weight="6"
+                                android:gravity="left"
+                                android:text="OO.3O"
+                                android:textSize="18sp"/>
+                        </TableRow>
+
+        					
+                        <TableRow
+                            android:id="@+id/tableRowThur"
+                            android:layout_width="wrap_content"
+                            android:layout_height="0dp"
+                            android:layout_weight="1"
+                            android:weightSum="1" 
+                            android:background="@color/DarkGray"
+                            android:paddingTop="3dp"
+                            >
+
+                            <TextView
+                                android:id="@+id/textViewTHur"
+                                android:layout_width="0dp"
+                                android:layout_height="wrap_content"
+                                android:layout_weight="1"
+                                android:gravity="center"
+                                android:text="Thursday"
+                                android:textSize="20sp" />
+                            </TableRow>
+                            
+                            
+                            <TableRow
+                                android:id="@+id/tableRow4"
+                                android:layout_width="wrap_content"
+                                android:layout_height="wrap_content"
+                                android:background="@color/DarkGray"
+                                >
+                            <TextView
+                                android:id="@+id/textViewThOpen1"
+                                android:layout_width="0dp"
+                                android:layout_height="wrap_content"
+                                android:layout_weight="6"
+                                android:gravity="right"
+                                android:text="12.3O"
+                                android:textSize="18sp"/>
+                                                    <TextView
+                            android:id="@+id/textView3"
+                            android:layout_width="wrap_content"
+                            android:layout_height="wrap_content"
+                            android:layout_weight="1"
+                            android:text="-"
+                            android:textSize="20sp"
+                            android:gravity="center"
+                                                        />
+                            <TextView
+                                android:id="@+id/textViewThClose1"
+                                android:layout_width="0dp"
+                                android:layout_height="wrap_content"
+                                android:layout_weight="6"
+                                android:text="14.OO"
+                                android:textSize="18sp" />
+                                               
+                            </TableRow>
+                            
+                            
+                              <TableRow
+                                android:id="@+id/tableRow5"
+                                android:layout_width="wrap_content"
+                                android:layout_height="wrap_content"
+                                android:background="@color/DarkGray"
+                                >                          
+                            <TextView
+                                android:id="@+id/textViewThOpen2"
+                                android:layout_width="0dp"
+                                android:layout_height="wrap_content"
+                                android:layout_weight="6"
+                                android:gravity="right"
+                                android:text="17.OO"
+                                android:textSize="18sp"/>
+                                                    <TextView
+                            android:id="@+id/textView4"
+                            android:layout_width="wrap_content"
+                            android:layout_height="wrap_content"
+                            android:layout_weight="1"
+                            android:text="-"
+                            android:textSize="20sp"
+                            android:gravity="center"
+                                                        />
+                            <TextView
+                                android:id="@+id/textViewThClose2"
+                                android:layout_width="0dp"
+                                android:layout_height="wrap_content"
+                                android:layout_weight="6"
+                                android:text="OO.3O"
+                                android:textSize="18sp" />
+
+                        </TableRow>
+
+                       <TableRow
+                           android:id="@+id/tableRowFri"
+                           android:layout_width="wrap_content"
+                           android:layout_height="0dp"
+                           android:layout_weight="1"
+                           android:weightSum="1" 
+                           android:background="@color/LightGray"
+                           android:paddingTop="3dp"
+                           >
+
+                            <TextView
+                                android:id="@+id/textViewFri"
+                                android:layout_width="0dp"
+                                android:layout_height="wrap_content"
+                                android:layout_weight="1"
+                                android:gravity="center"
+                                android:text="Friday"
+                                android:textSize="20sp" 
+                                />
+                              </TableRow>
+                            
+                              <TableRow
+                                android:id="@+id/tableRow6"
+                                android:layout_width="wrap_content"
+                                android:layout_height="wrap_content"
+                                android:background="@color/LightGray"
+                                
+                                >                          
+                                                        <TextView
+                                android:id="@+id/textViewFOpen1"
+                                android:layout_width="0dp"
+                                android:layout_height="wrap_content"
+                                android:layout_weight="6"
+                                android:gravity="right"
+                                android:text="12.3O"
+                                android:textSize="18sp"/>
+                                                        
+                                                      <TextView
+                            android:id="@+id/textView5"
+                            android:layout_width="wrap_content"
+                            android:layout_height="wrap_content"
+                            android:layout_weight="1"
+                            android:text="-"
+                            android:textSize="20sp"
+                            android:gravity="center"
+                                                        />                          
+                                                        
+                            <TextView
+                                android:id="@+id/textViewFClose1"
+                                android:layout_width="0dp"
+                                android:layout_height="wrap_content"
+                                android:layout_weight="6"
+                                android:text="14.15"
+                                android:textSize="18sp" />
+                            
+                                                    </TableRow>
+                            
+
+                                <TableRow
+                                android:id="@+id/tableRow7"
+                                android:layout_width="wrap_content"
+                                android:layout_height="wrap_content"
+                                android:background="@color/LightGray"
+                                > 
+                               <TextView
+                                android:id="@+id/textViewFOpen2"
+                                android:layout_width="0dp"
+                                android:layout_height="wrap_content"
+                                android:layout_weight="6"
+                                android:gravity="right"
+                                android:text="17.OO"
+                                android:textSize="18sp"/>
+                                     <TextView
+                            android:id="@+id/textView6"
+                            android:layout_width="wrap_content"
+                            android:layout_height="wrap_content"
+                            android:layout_weight="1"
+                            android:text="-"
+                            android:textSize="20sp"
+                            android:gravity="center"
+                                                        />              
+                                                                                                                     <TextView
+                                   android:id="@+id/textViewFClose2"
+                                   android:layout_width="0dp"
+                                   android:layout_height="wrap_content"
+                                   android:layout_weight="6"
+                                   android:text="O1.3O"
+                                   android:textSize="18sp"/>
+                        </TableRow>
+
+                        <TableRow
+                            android:id="@+id/tableRowSat"
+                            android:layout_width="wrap_content"
+                            android:layout_height="0dp"
+                            android:layout_weight="1"
+                            android:weightSum="1"
+                            android:background="@color/DarkGray"
+                            android:paddingTop="3dp"
+                            >
+                            <TextView
+                                android:id="@+id/textViewSat"
+                                android:layout_width="0dp"
+                                android:layout_height="wrap_content"
+                                android:layout_weight="1"
+                                android:gravity="center"
+                                android:text="Saturday"
+                                android:textSize="20sp"/>
+                          </TableRow>
+                            
+                            <TableRow
+                                android:id="@+id/tableRow8"
+                                android:layout_width="wrap_content"
+                                android:layout_height="wrap_content"
+                                android:background="@color/DarkGray"
+                                > 
+                            <TextView
+                                android:id="@+id/textViewSaOpen1"
+                                android:layout_width="0dp"
+                                android:layout_height="wrap_content"
+                                android:layout_weight="6"
+                                android:gravity="right"
+                                android:text="17.OO"
+                                android:textSize="18sp"/>
+                        <TextView
+                            android:id="@+id/textView8"
+                            android:layout_width="wrap_content"
+                            android:layout_height="wrap_content"
+                            android:layout_gravity="center"
+                            android:layout_weight="1"
+                            android:gravity="center"
+                            android:text="-"
+                            android:textSize="20sp"/>
+                            <TextView
+                                android:id="@+id/textViewSaClose1"
+                                android:layout_width="0dp"
+                                android:layout_height="wrap_content"
+                                android:layout_weight="6"
+                                android:text="O1.3O"
+                                android:textSize="18sp" />
+
+                        </TableRow>
+
+                        <TableRow
+                            android:id="@+id/tableRowSun"
+                            android:layout_width="wrap_content"
+                            android:layout_height="0dp"
+                            android:layout_weight="1"
+                            android:weightSum="1" 
+                            android:background="@color/LightGray"
+                            android:paddingTop="3dp"
+                            >
+
+                            <TextView
+                                android:id="@+id/textViewSu"
+                                android:layout_width="0dp"
+                                android:layout_height="wrap_content"
+                                android:layout_weight="1"
+                                android:gravity="center"
+                                android:text="Sunday"
+                                android:textSize="20sp" />
+                        </TableRow>
+                             
+                             <TableRow
+                                android:id="@+id/tableRow9"
+                                android:layout_width="wrap_content"
+                               android:layout_height="0dp"
+                                android:weightSum="13"
+                                android:background="@color/LightGray"
+                                > 
+                            <TextView
+                                android:id="@+id/textViewSuOpen1"
+                                android:layout_width="0dp"
+                                android:layout_height="wrap_content"
+                                android:layout_weight="6"
+                                android:gravity="right"
+                                android:text="17.OO"
+                                android:textSize="18sp"/>
+                          <TextView
+                              android:id="@+id/textView9"
+                              android:layout_width="0dp"
+                              android:layout_height="wrap_content"
+                              android:layout_gravity="center"
+                              android:layout_weight="1"
+                              android:gravity="center"
+                              android:text="-"
+                              android:textSize="20sp"
+                              />
+                            <TextView
+                                android:id="@+id/textViewSuClose1"
+                                android:layout_width="0dp"
+                                android:layout_height="wrap_content"
+                                android:layout_weight="6"
+                                android:text="OO.3O"
+                                android:textSize="18sp" />
+
+                        </TableRow>
+                    </TableLayout>
+					</ScrollView>
+                </TableLayout>
+
+          
+            </LinearLayout>
+
+                                            
+
+    
+
+ 
+                                            
+
+    
+

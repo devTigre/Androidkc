@@ -1,0 +1,148 @@
+<?xml version="1.0" encoding="utf-8"?>
+<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+    package="com.mbizdev.kcsonsons"
+    android:versionCode="15"
+    android:versionName="2.4">
+    <!-- 15  2.4 Menu update, fix merch link, update new link, add allergen link, change new server  -->
+    <!-- 14  2.3 migration to Studio. menu update may2017 , took out jar libs, add multidex, add privacy -->
+    <!-- 12  2.1 . -->
+    <!-- 11  2.1 fix:with wifi off still starts animation -->
+    <!-- 11  2.0 animation in new start page , target was 21 now 22 -->
+    <!-- 10  1.9 menu and opening updated 29jan2016 db userversion 7 -->
+    <!-- 9  1.8 menu and opening updated late jan2016 db userversion 7 withdrawn immediately as db not switched!! -->
+    <!-- 8  1.7 menu updated mid jan2016 db userversion 6 -->
+    <!-- 7  1.6 merch link updated aug2015 -->
+    <!-- 6  1.5 opening times updated july2015 -->
+    <!-- 5  1.4 menu and fonts updated jan2015 -->
+    <!-- 4  1.3 just updates fonts -->
+    <!-- Copied from Google Maps Library/AndroidManifest.xml. -->
+    <uses-sdk
+        android:minSdkVersion="14"
+        android:targetSdkVersion="24" />
+
+    <uses-permission android:name="android.permission.ACCESS_NETWORK_STATE" />
+    <uses-permission android:name="android.permission.INTERNET" />
+    <uses-permission android:name="com.google.android.providers.gsf.permission.READ_GSERVICES" />
+    <!-- External storage for caching. -->
+    <uses-permission android:name="android.permission.WRITE_EXTERNAL_STORAGE" />
+    <!-- My Location -->
+    <uses-permission android:name="android.permission.ACCESS_COARSE_LOCATION" />
+    <uses-permission android:name="android.permission.ACCESS_FINE_LOCATION" />
+    <!-- Maps API needs OpenGL ES 2.0. -->
+    <uses-feature
+        android:glEsVersion="0x00020000"
+        android:required="true" />
+
+    <uses-permission android:name="android.permission.READ_PHONE_STATE" />
+    <uses-permission android:name="android.permission.READ_EXTERNAL_STORAGE" />
+
+    <!-- End of copy. -->
+    <application
+        android:hardwareAccelerated="true"
+        android:icon="@mipmap/ic_launcher"
+        android:label="@string/app_name"
+        android:theme="@style/AppTheme">
+        <meta-data
+            android:name="com.google.android.gms.version"
+            android:value="@integer/google_play_services_version" />
+
+        <activity
+            android:name=".Home_Activity"
+            android:label="@string/app_name"
+            android:screenOrientation="portrait" />
+        <activity
+            android:name=".MoreActivity"
+            android:label="@string/aboutKC_SON_SONS"
+            android:screenOrientation="portrait">
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN" />
+
+                <category android:name="android.intent.category.LAUNCHER" />
+            </intent-filter>
+        </activity>
+        <activity
+            android:name=".TwitterActivity"
+            android:label="@string/title_activity_twitter"
+            android:screenOrientation="portrait" />
+        <activity
+            android:name=".FacebookActivity"
+            android:label="@string/title_activity_facebook"
+            android:screenOrientation="portrait" />
+        <activity
+            android:name=".WWWActivity"
+            android:label="@string/title_activity_www"
+            android:screenOrientation="portrait" />
+        <activity
+            android:name=".PittaActivity"
+            android:label="@string/title_activity_pitta"
+            android:screenOrientation="portrait" />
+        <activity
+            android:name=".BurgerActivity"
+            android:label="@string/title_activity_burger"
+            android:screenOrientation="portrait" />
+        <activity
+            android:name=".EveryThingActivity"
+            android:label="@string/title_activity_every_thing"
+            android:screenOrientation="portrait" />
+        <activity
+            android:name=".OpenHoursActivity"
+            android:label="@string/title_activity_open_hours"
+            android:screenOrientation="portrait"/>
+
+        <activity
+            android:name=".GPlusActivity"
+            android:label="@string/title_activity_gplus"
+            android:screenOrientation="portrait" />
+        <activity
+            android:name=".InstaActivity"
+            android:label="@string/title_activity_insta"
+            android:screenOrientation="portrait" />
+        <activity
+            android:name=".AboutActivity"
+            android:label="@string/title_activity_about"
+            android:screenOrientation="portrait" />
+        <activity
+            android:name=".MerchActivity"
+            android:label="@string/title_activity_merch"
+            android:screenOrientation="portrait" />
+        <activity
+            android:name=".CameraMapActivity"
+            android:label="@string/title_activity_camera_map"
+            android:screenOrientation="portrait" />
+        <activity
+            android:name=".LegalInfoActivity"
+            android:label="@string/title_activity_legal_info"
+            android:screenOrientation="portrait" />
+        <activity
+            android:name=".OrderActivity"
+            android:label="@string/title_activity_order"
+            android:screenOrientation="portrait" />
+        <activity
+            android:name=".Q_Cam"
+            android:label="@string/title_activity_q__cam"
+            android:screenOrientation="portrait" />
+        <activity
+            android:name=".NewServer"
+            android:label="@string/title_activity_new_server"
+            android:screenOrientation="portrait" />
+        <!--
+             The API key for Google Maps-based APIs is defined as a string resource.
+             (See the file "res/values/google_maps_api.xml").
+             Note that the API key is linked to the encryption key used to sign the APK.
+             You need a different API key for each encryption key, including the release key that is used to
+             sign the APK for publishing.
+             You can define the keys for the debug and release targets in src/debug/ and src/release/.
+AIzaSyDMDq3xfOhCG4g6UPPkg24-rWjJdtNWPeA   - new
+             AIzaSyAgD67rjKFl_0R7YEkpEfec2JRcdys5DZU   - old
+        -->
+        <meta-data
+            android:name="com.google.android.geo.API_KEY"
+            android:value="AIzaSyAgD67rjKFl_0R7YEkpEfec2JRcdys5DZU" />
+
+        <activity
+            android:name=".MapsActivity"
+            android:label="@string/title_activity_maps" />
+        <activity android:name=".AllergenActivity"></activity>
+    </application>
+
+</manifest>

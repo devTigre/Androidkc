@@ -1,0 +1,26 @@
+[
+    {
+        "outputFile": "/Users/mikeC/Documents/workspace/KCSonSons/build/intermediates/incremental/mergeReleaseResources/merged.dir/values-w820dp-v13/values-w820dp-v13.xml",
+        "map": [
+            {
+                "to": {
+                    "startLine": 2,
+                    "startColumn": 4,
+                    "startOffset": 55,
+                    "endColumn": 57,
+                    "endOffset": 108
+                },
+                "from": {
+                    "file": "/Users/mikeC/Documents/workspace/KCSonSons/res/values-w820dp/dimens.xml",
+                    "position": {
+                        "startLine": 6,
+                        "startColumn": 4,
+                        "startOffset": 304,
+                        "endColumn": 57,
+                        "endOffset": 357
+                    }
+                }
+            }
+        ]
+    }
+]

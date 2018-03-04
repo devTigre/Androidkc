@@ -1,0 +1,18 @@
+[
+    {
+        "merged": "/Users/mikeC/Documents/workspace/KCSonSons/build/intermediates/res/merged/debug/layout-v21/notification_template_icon_group.xml",
+        "source": "/Users/mikeC/.android/build-cache/d0ec36d349cdc8f65b881e3f51d04d7e3f4d6695/output/res/layout-v21/notification_template_icon_group.xml"
+    },
+    {
+        "merged": "/Users/mikeC/Documents/workspace/KCSonSons/build/intermediates/res/merged/debug/layout-v21/notification_action_tombstone.xml",
+        "source": "/Users/mikeC/.android/build-cache/d0ec36d349cdc8f65b881e3f51d04d7e3f4d6695/output/res/layout-v21/notification_action_tombstone.xml"
+    },
+    {
+        "merged": "/Users/mikeC/Documents/workspace/KCSonSons/build/intermediates/res/merged/debug/layout-v21/notification_action.xml",
+        "source": "/Users/mikeC/.android/build-cache/d0ec36d349cdc8f65b881e3f51d04d7e3f4d6695/output/res/layout-v21/notification_action.xml"
+    },
+    {
+        "merged": "/Users/mikeC/Documents/workspace/KCSonSons/build/intermediates/res/merged/debug/layout-v21/notification_template_custom_big.xml",
+        "source": "/Users/mikeC/.android/build-cache/d0ec36d349cdc8f65b881e3f51d04d7e3f4d6695/output/res/layout-v21/notification_template_custom_big.xml"
+    }
+]

@@ -1,0 +1,142 @@
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:weightSum="3" 
+    android:background="@color/white"
+    >
+
+    <!-- Screen Design for EveryThing -->
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_weight="2"
+        android:orientation="vertical" >
+            <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:weightSum="3"
+            >
+            <ImageView
+                android:id="@+id/imageViewSpace"
+                android:layout_width="0dp"
+                android:layout_height="50dp"
+                android:src="@drawable/blankleft"
+                android:layout_weight="1"/>
+
+            <ImageView
+                android:id="@+id/imageViewBanner"
+                android:layout_width="0dp"
+                android:layout_height="wrap_content"
+                android:src="@drawable/kcs_est_1958" 
+                android:background="@color/white"
+                android:layout_gravity="center"
+                android:layout_weight="1"
+                />
+                        <TextView
+                            android:id="@+id/textViewGlutenMessage"
+                            android:layout_width="0dp"
+                            android:layout_height="wrap_content"
+                            android:layout_gravity="center"
+                            android:layout_weight="1"
+                            android:gravity="center_vertical|fill_vertical|center_horizontal|fill_horizontal|center|fill"
+                            android:text="      "
+                            android:textColor="@color/darkRed"/>
+            </LinearLayout>
+            
+               <TextView
+            android:id="@+id/textViewOrderDesc"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center"
+            android:gravity="center"
+            android:textAppearance="?android:attr/textAppearanceSmall"
+            android:textSize="11sp"
+            />
+               
+    <ListView
+        android:id="@+id/listView1"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:divider="@color/graye6e6e6"
+        android:dividerHeight="2dp"
+        android:fastScrollEnabled="true"
+                android:fastScrollAlwaysVisible="true"
+        
+          >
+    </ListView>
+    
+    
+
+    </LinearLayout>
+    
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_gravity="bottom"
+        android:layout_weight="1"
+        android:divider="?android:dividerHorizontal"
+        android:showDividers="middle" 
+        android:weightSum="7"
+        >
+        
+     <Button
+         android:id="@+id/buttonPitta"
+         android:layout_width="0dp"
+         android:layout_height="wrap_content"
+         android:layout_gravity="center"
+         android:layout_weight="2"
+         android:background="@color/black"
+         android:minHeight="65dp"
+         android:text="@string/FilledPita"
+         android:textColor="@color/white"
+          android:textSize="14sp"
+         android:textStyle="bold" 
+         
+         />
+       
+        <Button
+            android:id="@+id/buttonHamburger"
+            android:layout_width="0dp"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center"
+            android:layout_weight="2"
+            android:background="@color/black"
+            android:minHeight="65dp"
+            android:text="@string/BurgersCiabatta"
+            android:textColor="@color/white"
+            android:textSize="14sp"
+            android:textStyle="bold" />
+        
+            <Button
+                android:id="@+id/buttonEverything"
+                android:layout_width="0dp"
+                android:layout_height="wrap_content"
+                android:layout_gravity="center"
+                android:layout_weight="2"
+                android:background="@color/DimGray"
+                android:minHeight="65dp"
+                android:text="@string/EverythingElse"
+                android:textColor="@color/white"
+                android:textSize="14sp"
+                android:textStyle="bold" />
+               <Button
+                android:id="@+id/buttonOrder"
+                android:layout_width="0dp"
+                android:layout_height="wrap_content"
+                android:layout_gravity="center"
+                android:layout_weight="1"
+                android:background="@color/black"
+                android:minHeight="65dp"
+                android:text="List"
+                android:textColor="@color/firebrick"
+                android:textSize="14sp"
+                android:textStyle="bold" />
+    </LinearLayout>
+
+   
+
+
+
+</LinearLayout>

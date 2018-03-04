@@ -1,0 +1,161 @@
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="fill_parent"
+    android:layout_height="wrap_content"
+    tools:context=".AboutActivity" 
+    android:background="@color/white"
+    >
+  
+    <ScrollView
+        android:id="@+id/scrollView1"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:fillViewport="true"
+
+         >
+
+         <LinearLayout
+             android:layout_width="wrap_content"
+             android:layout_height="wrap_content"
+             android:orientation="vertical"
+             android:scrollbarAlwaysDrawVerticalTrack="true"
+             android:scrollbars="vertical"
+             android:weightSum="6" >
+
+             <LinearLayout
+                 android:layout_width="wrap_content"
+                 android:layout_height="0dp"
+                 android:layout_weight="2"
+                 android:orientation="vertical"
+                 android:scrollbars="vertical"
+                 android:weightSum="3.5" >
+
+                 <ImageView
+                     android:id="@+id/imageViewBanner"
+                     android:layout_width="fill_parent"
+                     android:layout_height="wrap_content"
+                     android:layout_weight="0.5"
+                     android:src="@drawable/newlogow96" />
+                                  <ImageView
+                                      android:id="@+id/imageViewAboutUs"
+                                      android:layout_width="wrap_content"
+                                      android:layout_height="wrap_content"
+                                      android:layout_gravity="center"
+                                      android:paddingLeft="20dp"
+                                      android:paddingRight="20dp"
+                                      android:src="@drawable/aboutusbannerw500"/>
+                 <TextView
+                     android:id="@+id/textViewAbout1"
+                     android:layout_width="match_parent"
+                     android:layout_height="wrap_content"
+                     android:layout_gravity="fill_horizontal|center"
+                     android:layout_weight="1"
+                     android:freezesText="false"
+                     android:gravity="right|fill_horizontal"
+                     android:paddingLeft="10dp"
+                     android:paddingTop="10dp"
+                     android:text="@string/about1about2"
+                     android:textAlignment="center"/>
+              
+
+                                                  <ImageView
+                                                      android:id="@+id/imageViewEnvironbanner"
+                                                      android:layout_width="wrap_content"
+                                                      android:layout_height="wrap_content"
+                                                      android:layout_gravity="center"
+                                                      android:paddingLeft="20dp"
+                                                      android:paddingRight="20dp"
+                                                      android:src="@drawable/environbannerw500"/>
+                 <TextView
+                     android:id="@+id/textViewEnvironment"
+                     android:layout_width="wrap_content"
+                     android:layout_height="wrap_content"
+                     android:layout_weight="1"
+                     android:padding="10dp"
+                     android:text="@string/environment" />
+             </LinearLayout>
+
+             <LinearLayout
+                 android:layout_width="match_parent"
+                 android:layout_height="0dp"
+                 android:layout_weight="1"
+                 android:orientation="horizontal"
+                 android:paddingTop="25dp"
+                 android:weightSum="2.618" >
+
+                 <TextView
+                     android:id="@+id/textViewBridgestone"
+                     android:layout_width="0dp"
+                     android:layout_height="wrap_content"
+                     android:layout_gravity="center_horizontal"
+                     android:layout_weight="1.618"
+                     android:gravity="center_horizontal"
+                     android:paddingLeft="2dp"
+                     android:text="@string/BridgestoneWinners" />
+
+                 <ImageView
+                     android:id="@+id/imageViewMcKenna"
+                     android:layout_width="0dp"
+                     android:layout_height="wrap_content"
+                     android:layout_weight="1"
+                     android:src="@drawable/mckennah148" />
+
+             </LinearLayout>
+
+             <LinearLayout
+                 android:layout_width="fill_parent"
+                 android:layout_height="wrap_content"
+                 android:layout_weight="3"
+                 android:orientation="vertical"
+                 android:weightSum="13" >
+
+                 <TextView
+                     android:id="@+id/textViewQuote1"
+                     android:layout_width="wrap_content"
+                     android:layout_height="wrap_content"
+                     android:layout_gravity="bottom|left"
+                     android:layout_weight="1"
+                     android:gravity="bottom|left"
+                     android:paddingLeft="2dp"
+                     android:text="@string/quote"
+                     android:textSize="25sp"
+                     android:textStyle="bold|italic" />
+
+                 <TextView
+                     android:id="@+id/textViewBridgestoneQuote"
+                     android:layout_width="match_parent"
+                     android:layout_height="wrap_content"
+                     android:padding="5dp"
+                     android:text="@string/aboutBridgeStoneQuote" 
+                     android:layout_weight="20"/>
+
+                 <TextView
+                     android:id="@+id/textViewQuote2"
+                     android:layout_width="wrap_content"
+                     android:layout_height="wrap_content"
+                     android:layout_gravity="top|right"
+                     android:layout_weight="1"
+                     android:gravity="bottom|left"
+                     android:paddingRight="4dp"
+                     android:text="@string/quote"
+                     android:textSize="25sp"
+                     android:textStyle="bold|italic" />
+
+                 <TextView
+                     android:id="@+id/textViewTheBridgestoneGuide"
+                     android:layout_width="wrap_content"
+                     android:layout_height="wrap_content"
+                     android:layout_gravity="right"
+                     android:layout_weight="1"
+                     android:paddingRight="5dp"
+                     android:text="@string/TheBridgestoneGuide" />
+             
+             </LinearLayout>
+         </LinearLayout>
+    
+    </ScrollView>
+
+
+
+ 
+    </LinearLayout>

@@ -1,0 +1,15 @@
+<resources>
+
+    <color name="black_overlay">#66000000</color>
+     <color name="firebrick">#B22222</color>
+     <color name="darkRed">#971C21</color>
+      <color name="black">#000000</color>
+           <color name="graye6e6e6">#E6E6E6</color>
+            <color name="DarkSlateGray">#2F4F4F</color>
+          <color name="DimGray">#696969</color>
+      <color name="LightGray">#CCCCCC</color>
+      <color name="DarkGray">#999999</color>
+                      
+    <color name="white">#FFFFFF</color>
+      
+</resources>

@@ -1,0 +1,109 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="app_name">KC &amp; Son &amp; Sons</string>
+    <string name="action_settings">Settings</string>
+    <string name="KC_SON_SONS">KC &amp; SON &amp; SONS</string>
+    <string name="aboutKC_SON_SONS">KC&amp;SON&amp;SONS</string>
+    <string name="more">about\n KC &amp; SON &amp; SONS</string>
+    <string name="openHours">Opening Hours</string>
+    <string name="todaysopenHours">Today\'s Opening Hours</string>
+    <string name="fresh">Although every effort has been made to remove all bones some may remain. This is the nature of working with fresh produce and we cannot be held responsible.</string>
+    <string name="pittaIntro">(All Cooked To Order + With The Chips Inside)</string>
+    <string name="pittaIrish">(Our Chicken is 100% Irish Breast Fillet)</string>
+    <string name="pittaExtras">Extras</string>
+    <string name="pittaExtraInfo">Add Cheese €1, Add Bacon €1</string>
+    <string name="HamInfo">Our hamburgers are a quarter pound of Bresnan’s finest 100% Irish minced beef, served in a Hassett’s freshly baked sourdough bun</string>
+    <string name="freshlycut">Freshly cut and fried in vegetable oil.\nRegular: 2.00  Large: 3.00</string>
+    <string name="Chips">Chips</string>
+    <string name="BridgestoneWinners">Winners of the Bridgestone Award \n- 13 years running</string>
+    <string name="Menu">Our Menu</string>
+    <string name="FilledPita">Filled\nPita</string>
+    <string name="BurgersCiabatta">Burgers</string>
+    <string name="EverythingElse">Everything\nElse</string>
+    <string name="Today"><b>Today</b></string>
+    <string name="Address"><b>East Douglas, Cork</b></string>
+    <string name="Loading"><b>Loading .. </b></string>
+
+
+    <string name="title_activity_more">.. more on KC &amp; SON &amp; SONS </string>
+    <string name="title_activity_twitter">KC &amp; SON &amp; SONS on Twitter</string>
+    <string name="title_activity_facebook">KC &amp; SON &amp; SONS on Facebook</string>
+    <string name="title_activity_www">KC &amp; SON &amp; SONS on the web</string>
+    <string name="title_activity_pitta">Filled Pitas</string>
+    <string name="title_activity_burger">Burgers</string>
+    <string name="title_activity_every_thing">Everything Else</string>
+    <string name="title_activity_open_hours">KC &amp; SON &amp; SONS...</string>
+    <string name="title_activity_gplus">KC &amp; SON &amp; SONS on Google +</string>
+    <string name="title_activity_insta">KC &amp; SON &amp; SONS on Instagram</string>
+    <string name="title_activity_about">KC &amp; SON &amp; SONS - About Us</string>
+    <string name="title_activity_merch">KC &amp; SON &amp; SONS Merchandise</string>
+    <string name="quote">\"</string>
+    <string name="quality_food"> Quality food, using the best local ingredients.</string>
+    <string name="map_not_ready">Map is not ready yet</string>
+    <string name="play_services_not_installed">play services not installed</string>
+    <string name="environ">Here at KC\'s we\'re not just passionate about the food we produce, we also care deeply about the environment. 95% of our packaging is recyclable or compostable. We use Down To Earth products such as forks and drinking straws made from starch which biodegrade within 180 days.
+We also try to use local suppliers and producers as much as possible. Our chicken is Irish, supplied by Sheehan\'s farm just up the hill from us. Our beef is locally farm reared, supplied by Bresnan\'s Butchers. The fish we use is caught in Irish waters and usually landed at Crosshaven or Castletownbere. Our bread is baked daily by Hassett\'s Bakery in Carrigaline.
+We make our own sauces and blend our own spices.</string>
+    <string name="about1">In 1958 Ken &amp; Edith Crawford had a simple idea. Produce quality food, at prices everyone could afford and serve it efficiently. Fifty odd years on, while Douglas has transformed into a sprawling suburban megalopolis, one small, ex-cottage right in the centre has hardly changed at all. Apart from the wall colours and a menu 1950\'s locals couldn\'t have dreamed of the humble fish and chip shop remains so. Only the incessant queues are a testament to the attention given to tradition, innovation, value and devotion.
+Our ethos hasn\'t changed to this day. We still strive to produce quality food, using the best local ingredients. We still strive to keep our prices low. And the queue moves faster than ever...</string>
+    <string name="about2">Blink and you\’d miss it as you cruise through the bustling village of Douglas. Yet, even though dwarfed by the adolescent growth spurts of industry and progress around us, KC\'s still stands tall as a truly world renowned eatery. For over half a century now the family run business has certainly done its best to maximize the output from the tiny building bursting with fresh ideas and overflowing with gastronomic creative juices. 
+
+Among the first to introduce the Hamburger to the people of Cork. Inventors of the often imitated Meat Patties. Purveyors of the famous King Creole, Chicken Bombay and The KC Special Burger. Serving thousands of hungry people every week, the best things really do come in small packages.</string>
+    <string name="aboutBridgeStoneQuote">KC\'s is the wittiest place to eat in Ireland. Wes Crawford and his team – KC and son and sons: you call it family, they call it nepotism – put the fun into eating, for they see humour, witticisms, puns, drollness, laughs and jocularity in everything. The graphics are a hoot. The website and Facebook page are a scream. And queueing in the little shop is a treat in itself, for there is so much to be amused by. These guys are so witty they could serve you gruel and you would be happy. But, as well as being funny, they are people who care about what they cook and serve, so this is proper food: lovely fresh fish; ace pork belly bbq, the classic meat pattie; the chicken curry, the pig in spuds. Laugh? Once inside this tardis of good food, you will laugh. Only in Cork, boy. Only in Cork.</string>
+    <string name="TheBridgestoneGuide">- The Bridgestone Guide.</string>
+    <string name="title_activity_location">Find us</string>
+    <string name="about1about2">In 1958 Ken &amp; Edith Crawford had a simple idea. Produce quality food, at prices everyone could afford and serve it efficiently. Fifty odd years on, while Douglas has transformed into a sprawling suburban megalopolis, one small, ex-cottage right in the centre has hardly changed at all. Apart from the wall colours and a menu 1950\'s locals couldn\'t have dreamed of the humble fish and chip shop remains so. Only the incessant queues are a testament to the attention given to tradition, innovation, value and devotion.
+Our ethos hasn\'t changed to this day. We still strive to produce quality food, using the best local ingredients. We still strive to keep our prices low. And the queue moves faster than ever...
+    Blink and you\’d miss it as you cruise through the bustling village of Douglas. Yet, even though dwarfed by the adolescent growth spurts of industry and progress around us, KC\'s still stands tall as a truly world renowned eatery. For over half a century now the family run business has certainly done its best to maximize the output from the tiny building bursting with fresh ideas and overflowing with gastronomic creative juices. 
+
+Among the first to introduce the Hamburger to the people of Cork. Inventors of the often imitated Meat Patties. Purveyors of the famous King Creole, Chicken Bombay and The KC Special Burger. Serving thousands of hungry people every week, the best things really do come in small packages.</string>
+    <string name="environment">    Here at KC\'s we\'re not just passionate about the food we produce, we also care deeply about the environment. 95% of our packaging is recyclable or compostable. We use Down To Earth products such as forks and drinking straws made from starch which biodegrade within 180 days.
+
+We also try to use local suppliers and producers as much as possible. Our chicken is Irish, supplied by Sheehan\'s farm just up the hill from us. Our beef is locally farm reared, supplied by Bresnan\'s Butchers. The fish we use is caught in Irish waters and usually landed at Crosshaven or Castletownbere. Our bread is baked daily by Hassett\'s Bakery in Carrigaline.
+
+We make our own sauces and blend our own spices.</string>
+
+
+    <string name="AboutKC">About KC &amp; Son &amp; Sons</string>
+    <string name="AboutEnviron">KCs and the environment</string>
+    <string name="title_activity_util">UtilActivity</string>
+    <string name="title_activity_camera_map">KC &amp; SON &amp; SONS - Find us</string>
+    <string name="title_activity_legal_info">Legal info about google maps</string>
+    <string name="hello_world">Hello world!</string>
+    <string name="title_activity_order">List</string>
+    <string name="title_activity_qcam">QcamActivity</string>
+    <string name="title_activity_q__cam">Q Cam</string>
+    <string name="title_activity_new_server">New</string>
+    <string name="title_activity_maps">Map</string>
+
+
+    <string name="Privacy_Policy">Privacy Policy</string>
+    <string name="Privacy_Policy_Info">
+
+    <p>Promobile built the KC &amp; Son &amp; Sons App. This App is provided at no cost and is intended for use as is.</p>
+    <p>This page is used to inform App users regarding our policies on the collection, use, and disclosure of data.</p>
+
+    <p><b>Information Collection and Use: </b></p>
+    <p>Personnal Information is not collected by Promobile or this App in any way.</p>
+    The App does use services provided by Google. You can review the Google privacy policy at www.google.com/policies/privacy.
+
+    <p><b>Service Providers: </b></p>
+    <p>We employ Google Services for the following reasons:</p>
+    <ul>
+        <li>To provide the Mapping Service on our behalf.</li>
+        <li>To assist us in analyzing how our App is performing.</li>
+    </ul>
+
+    <p><b>Crash Log Data: </b></p>
+    <p>In case of an error in the App, data and information is collected on your phone, called Log Data. This Log Data may include information such as the Make and Model of your device, operating system version, configuration of the App when utilising our App, the time and date of when the App crashed, and other statistics.</p>
+
+    <p><b>Links to Other Sites: </b></p>
+    <p>This App contains links to other sites, for example Facebook, Twitter and others. If you click on a third-party link, you will be directed to that external site. We have no control over, and assume no responsibility for the content, privacy policies, or practices of any third-party sites or services. Therefore, we advise you to review the Privacy Policy of these websites.</p>
+
+    <p><b>Changes to This Privacy Policy: </b></p>
+    <p>We may update our Privacy Policy from time to time. Thus, you are advised to review this page periodically for any changes. We will notify you of any changes by posting the new Privacy Policy on this page. These changes are effective immediately, after they are posted on this page.</p>
+
+</string>
+
+
+</resources>

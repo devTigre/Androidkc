@@ -1,0 +1,137 @@
+# view res/layout/abc_alert_dialog_material.xml #generated:41
+-keep class android.support.v4.widget.NestedScrollView { <init>(...); }
+
+# view res/layout/abc_alert_dialog_button_bar_material.xml #generated:43
+# view res/layout/abc_alert_dialog_material.xml #generated:52
+# view res/layout/abc_alert_dialog_material.xml #generated:66
+# view res/layout/abc_alert_dialog_title_material.xml #generated:56
+-keep class android.support.v4.widget.Space { <init>(...); }
+
+# view res/layout/abc_select_dialog_material.xml #generated:23
+-keep class android.support.v7.app.AlertController$RecycleListView { <init>(...); }
+
+# view res/layout/abc_action_menu_item_layout.xml #generated:17
+-keep class android.support.v7.view.menu.ActionMenuItemView { <init>(...); }
+
+# view res/layout/abc_expanded_menu_layout.xml #generated:17
+-keep class android.support.v7.view.menu.ExpandedMenuView { <init>(...); }
+
+# view res/layout/abc_list_menu_item_layout.xml #generated:17
+# view res/layout/abc_popup_menu_item_layout.xml #generated:17
+-keep class android.support.v7.view.menu.ListMenuItemView { <init>(...); }
+
+# view res/layout/abc_screen_toolbar.xml #generated:27
+-keep class android.support.v7.widget.ActionBarContainer { <init>(...); }
+
+# view res/layout/abc_action_mode_bar.xml #generated:19
+# view res/layout/abc_screen_toolbar.xml #generated:43
+-keep class android.support.v7.widget.ActionBarContextView { <init>(...); }
+
+# view res/layout/abc_screen_toolbar.xml #generated:17
+-keep class android.support.v7.widget.ActionBarOverlayLayout { <init>(...); }
+
+# view res/layout/abc_action_menu_layout.xml #generated:17
+-keep class android.support.v7.widget.ActionMenuView { <init>(...); }
+
+# view res/layout/abc_activity_chooser_view.xml #generated:19
+-keep class android.support.v7.widget.ActivityChooserView$InnerLayout { <init>(...); }
+
+# view res/layout/abc_alert_dialog_material.xml #generated:18
+-keep class android.support.v7.widget.AlertDialogLayout { <init>(...); }
+
+# view res/layout/abc_alert_dialog_button_bar_material.xml #generated:26
+-keep class android.support.v7.widget.ButtonBarLayout { <init>(...); }
+
+# view res/layout/abc_screen_content_include.xml #generated:19
+-keep class android.support.v7.widget.ContentFrameLayout { <init>(...); }
+
+# view res/layout/abc_alert_dialog_title_material.xml #generated:45
+-keep class android.support.v7.widget.DialogTitle { <init>(...); }
+
+# view res/layout/abc_screen_simple_overlay_action_mode.xml #generated:23
+-keep class android.support.v7.widget.FitWindowsFrameLayout { <init>(...); }
+
+# view res/layout/abc_dialog_title_material.xml #generated:22
+# view res/layout/abc_screen_simple.xml #generated:17
+-keep class android.support.v7.widget.FitWindowsLinearLayout { <init>(...); }
+
+# view res/layout/abc_search_view.xml #generated:75
+-keep class android.support.v7.widget.SearchView$SearchAutoComplete { <init>(...); }
+
+# view res/layout/abc_screen_toolbar.xml #generated:36
+-keep class android.support.v7.widget.Toolbar { <init>(...); }
+
+# view res/layout/abc_screen_simple.xml #generated:25
+# view res/layout/abc_screen_simple_overlay_action_mode.xml #generated:32
+-keep class android.support.v7.widget.ViewStubCompat { <init>(...); }
+
+# view AndroidManifest.xml #generated:147
+-keep class com.google.android.gms.common.api.GoogleApiActivity { <init>(...); }
+
+# view res/layout/activity_camera_map.xml #generated:22
+# view res/layout/activity_maps.xml #generated:1
+-keep class com.google.android.gms.maps.SupportMapFragment { <init>(...); }
+
+# view AndroidManifest.xml #generated:101
+-keep class com.mbizdev.kcsonsons.AboutActivity { <init>(...); }
+
+# view AndroidManifest.xml #generated:146
+-keep class com.mbizdev.kcsonsons.AllergenActivity { <init>(...); }
+
+# view AndroidManifest.xml #generated:80
+-keep class com.mbizdev.kcsonsons.BurgerActivity { <init>(...); }
+
+# view AndroidManifest.xml #generated:109
+-keep class com.mbizdev.kcsonsons.CameraMapActivity { <init>(...); }
+
+# view AndroidManifest.xml #generated:84
+-keep class com.mbizdev.kcsonsons.EveryThingActivity { <init>(...); }
+
+# view AndroidManifest.xml #generated:68
+-keep class com.mbizdev.kcsonsons.FacebookActivity { <init>(...); }
+
+# view AndroidManifest.xml #generated:93
+-keep class com.mbizdev.kcsonsons.GPlusActivity { <init>(...); }
+
+# view AndroidManifest.xml #generated:50
+-keep class com.mbizdev.kcsonsons.Home_Activity { <init>(...); }
+
+# view AndroidManifest.xml #generated:97
+-keep class com.mbizdev.kcsonsons.InstaActivity { <init>(...); }
+
+# view AndroidManifest.xml #generated:113
+-keep class com.mbizdev.kcsonsons.LegalInfoActivity { <init>(...); }
+
+# view AndroidManifest.xml #generated:143
+-keep class com.mbizdev.kcsonsons.MapsActivity { <init>(...); }
+
+# view AndroidManifest.xml #generated:105
+-keep class com.mbizdev.kcsonsons.MerchActivity { <init>(...); }
+
+# view AndroidManifest.xml #generated:54
+-keep class com.mbizdev.kcsonsons.MoreActivity { <init>(...); }
+
+# view AndroidManifest.xml #generated:125
+-keep class com.mbizdev.kcsonsons.NewServer { <init>(...); }
+
+# view AndroidManifest.xml #generated:88
+-keep class com.mbizdev.kcsonsons.OpenHoursActivity { <init>(...); }
+
+# view AndroidManifest.xml #generated:117
+-keep class com.mbizdev.kcsonsons.OrderActivity { <init>(...); }
+
+# view AndroidManifest.xml #generated:76
+-keep class com.mbizdev.kcsonsons.PittaActivity { <init>(...); }
+
+# view AndroidManifest.xml #generated:121
+-keep class com.mbizdev.kcsonsons.Q_Cam { <init>(...); }
+
+# view AndroidManifest.xml #generated:64
+-keep class com.mbizdev.kcsonsons.TwitterActivity { <init>(...); }
+
+# view AndroidManifest.xml #generated:72
+-keep class com.mbizdev.kcsonsons.WWWActivity { <init>(...); }
+
+# onClick res/layout/activity_camera_map.xml #generated:11
+-keepclassmembers class * { *** onGoToSydney(...); }
+
